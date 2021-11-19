@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "types": "index.d.ts",
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
